@@ -1,0 +1,75 @@
+# Environment & Secret files (CRITICAL SECURITY)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*
+!.env.example
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Database & SQLite files
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+backend/*.db
+backend/*.sqlite
+
+# Node & Frontend Build Output
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/coverage/
+.npm
+.eslintcache
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.nox/
+.tox/
+
+# Logs & Temporary Files
+*.log
+logs/
+scratch/
+backend/scratch/
+
+# Operating System & IDE Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
