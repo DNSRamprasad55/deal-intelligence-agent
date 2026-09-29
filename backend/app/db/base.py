@@ -1,0 +1,9 @@
+from app.db.database import Base  # noqa
+from app.models.user import User  # noqa
+from app.models.company import Company  # noqa
+from app.models.contact import Contact  # noqa
+from app.models.deal import Deal  # noqa
+from app.models.interaction import Interaction  # noqa
+from app.models.recommendation import Recommendation  # noqa
+from app.models.deal_action import DealAction  # noqa
+from app.models.deal_outcome import DealOutcome  # noqa
